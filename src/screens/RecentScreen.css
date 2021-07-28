@@ -1,0 +1,10 @@
+.card-title{
+    text-align: center;
+ }
+
+ .recent-screen{
+    max-width: 1300px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-evenly;
+}

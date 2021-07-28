@@ -1,0 +1,44 @@
+.Landing{
+    background-image: url('../images/Untitled.png');
+    height: 400px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black
+}
+
+.Landing-body{
+    height:300px;
+    width:600px;
+    margin-left: -390px;
+    /*opacity: 0.5;*/
+    background: rgba(204, 204, 204, 0.5);
+    border-radius: 25px;
+    border:solid 2px #FF8630;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Landing-body-text{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: -50px;
+}
+
+.Landing-btn{
+    margin-top: 40px;
+}
+
+Button{
+    font-weight: bold;
+    color: white;
+    height: 50px;
+    width:100px;
+    border: solid 2px white;
+    border-radius: 25px;
+    background-color:#FF8630;
+    opacity: 0.9;
+}

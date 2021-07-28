@@ -1,0 +1,45 @@
+.Navbar{
+    background-color: #BD2440;
+    color: white;
+    display: flex;
+    align-items: center;
+    height:80px;
+    font-family: 'Cabin', sans-serif;
+}
+
+.Navbar-logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    width: 28%;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.Navbar-middle{
+    align-content: center;
+    width: 33%;
+}
+
+.navbar-links{
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+}
+
+.Navbar-search>input{
+    margin-left: 280px;
+    width:180px;
+    border-radius: 50px;
+    border: none;
+    height: 30px;
+}
+
+.Navbar-search>input::placeholder{
+    color:#BD2440 ;
+    font-weight: bold;
+    text-align: center;
+}
