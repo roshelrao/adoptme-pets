@@ -6,6 +6,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import PetScreen from '../screens/PetScreen';
 
 export const Navbar = () => {
     return (

@@ -10,6 +10,7 @@ export const RecentScreen = () => {
             <Cards/>
             <Cards/>
             <Cards/>
+            <Cards/>
         </div>
         </>
     )

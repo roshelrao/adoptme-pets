@@ -1,11 +1,8 @@
-.card-title{
-    text-align: center;
- }
-
- .recent-screen{
+.pet-cards{
     max-width: 1300px;
     margin: 1rem auto;
     display: flex;
     justify-content: space-evenly;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
 }
