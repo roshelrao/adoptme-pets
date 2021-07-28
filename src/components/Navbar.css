@@ -15,6 +15,11 @@
     cursor: pointer;
 }
 
+a{
+    text-decoration: none;
+    color:white;
+}
+
 .Navbar-middle{
     align-content: center;
     width: 33%;

@@ -1,23 +1,31 @@
 import React from 'react'
 import './Navbar.css'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 export const Navbar = () => {
     return (
+        <Router>
         <div className="Navbar">
             <div className="Navbar-logo">
                 AdoptMe
             </div>
             <div className="Navbar-middle">
                 <ul className="navbar-links">
-                    <li>Home</li>
-                    <li>Add a pet</li>
-                    <li>Contact us</li>
+                    <li><Link to="/home">Home</Link></li>
+                    <li><Link to="/new">Add a pet</Link></li>
+                    <li><Link to="/view">View all pets</Link></li>
                 </ul>
             </div>
             <div className="Navbar-search">
                 <input type="text" placeholder="Search"/>
             </div>
         </div>
+        </Router>
     )
 }
 
