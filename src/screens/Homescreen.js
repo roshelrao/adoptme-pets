@@ -7,7 +7,6 @@ import AddForm from '../components/AddForm'
 export const Homescreen = () => {
     return (
         <>
-            <Navbar/>
             <Landing/>
             <RecentScreen/>
             <AddForm/>

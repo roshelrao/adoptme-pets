@@ -8,17 +8,18 @@ import {
   Link
 } from "react-router-dom";
 import RecentScreen from './screens/RecentScreen';
+import Navbar from './components/Navbar';
+import AddForm from './components/AddForm';
 
 function App() {
   return (
     <Router>
-      <main>
+      <Navbar/>
         <Switch>
           <Route exact path="/home" component={Homescreen}/>
-          <Route exact path="/new" component={RecentScreen}/>
+          <Route exact path="/new" component={AddForm}/>
           <Route exact path="/view" component={PetScreen}/>
         </Switch>
-      </main>
     </Router>
   );
 }

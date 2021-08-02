@@ -6,7 +6,6 @@ import './PetScreen.css'
 export const PetScreen = () => {
     return (
         <div>
-            <Navbar/>
             <div className="pet-cards">
             <Cards/>
             <Cards/>
